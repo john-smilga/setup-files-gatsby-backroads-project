@@ -6,7 +6,7 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -39,6 +39,9 @@ h6 {
 p {
   margin-bottom: 1.25rem;
 }
+a {
+  text-decoration: none;
+}
 .defaultHero {
   min-height: calc(100vh - 62px);
   background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
@@ -50,7 +53,6 @@ p {
 .btn-white,
 .btn-primary {
   text-transform: uppercase;
-  text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
   border: 2px solid var(--mainWhite);
@@ -74,4 +76,10 @@ p {
 }
 /* .gatsby-image-wrapper {
   max-height: 600px;
+  box-shadow: var(--lightShadow);
 } */
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
