@@ -41,6 +41,17 @@
 .template h4 {
   text-transform: capitalize;
 }
+.template h2 {
+  margin: 2rem 0;
+}
+.journey {
+  margin: 3rem 0;
+}
+@media screen and (min-width: 992px) {
+  .journey {
+    width: 70vw;
+  }
+}
 @media screen and (min-width: 1200px) {
   .center {
     width: 95vw;
