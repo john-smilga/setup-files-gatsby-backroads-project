@@ -11,7 +11,7 @@
     margin: 0 auto;
   }
 }
-label {
+.contact label {
   text-transform: capitalize;
   display: block;
   margin-bottom: 0.5rem;
